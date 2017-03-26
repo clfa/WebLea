@@ -1,0 +1,201 @@
+<html>
+	<head>
+		<title>W3CSchool HTML属性总结</title>
+		
+		<!-- 设置字符集为utf-8，这样避免页面显示为乱码 -->
+		<meta charset='utf-8'>
+		
+		<style type="text/css">
+			p2 {color:red}
+		</style>
+		
+		<link rel="stylesheet" type="type/css" href="/css00.css">
+
+	</head>
+	
+	<!-- 自html4引入了style属性，原有的对应标签、属性被取消，如center、font、
+	basefont、strike/s、u、align、bgcolor、color；style下有新的属性可以替换
+	该设置，如style='background-color:xxx'来代替bgcolor -->
+	<body style='background-color:gray'>
+		<h1 style='text-align:left'>我为左对齐的一级标题HTML</h1>
+		<!-- 分隔用的水平线 -->
+		<hr/>
+		
+		<p1>
+			<h2>我为使用文本格式化标签的二级标题HTML</h2>
+			<text style='font-family:consolas;color:green;font-size:20px'>
+			我为consolas字体类型、绿色、20号像素大小的HTML。
+			</text>
+			<!-- 换行 -->
+			<br/>
+			
+			<h3>我为要朗诵一首唐诗的HTML</h3>
+			<text>
+				悯农 李绅				
+				锄禾日当午<sup>我为使用了上标属性的HTML</sup>，<br/>
+				汗滴禾下土<sub>我为使用了下标属性的HTML</sub>。<br/>
+				谁知盘中餐, <br/>
+				粒粒皆辛苦。<br/>
+			</text>
+
+			<br />
+			<!-- 定义粗体文字 -->
+			<b>我为粗体HTML</b> <br />
+			<!-- 定义大号字体 -->
+			<big>我为大号字体HTML</big> <br />
+			<!-- 定义小号字体 -->
+			<small>我为小号字体HTML</small> <br />
+			<!-- 定义着重文字 -->
+			<em>我为着重文字HTML</em> <br />		
+			<!-- 定义斜体字 -->
+			<i>我为斜体文字HTML</i> <br />
+			<!-- 定义删除字 -->
+			<del>我为删除字的HTML</del> <br />
+			<!-- 定义插入字 -->
+			<ins>我为定义插入字的HTML</ins> <br />
+			
+			<!-- 计算机输出 -->
+			<h2>我为使用"计算机输出"标签的二级标题HTML</h2>
+			<!-- 定义计算机代码 -->
+			<code>
+				我为定义计算机代码的HTML <br />
+				for(int i=0; i<100; ++i) { <br />
+					cout<< i << endl; <br />
+				} <br />
+				cout<< endl;
+			</code> 
+			<br />
+			<br />
+			<!-- 定义键盘码 -->
+			<kbd>
+				我为定义键盘码的HTML，<br />
+				abcdefghijklmnopqrstuvwxyz <br />
+				ABCDEFGHIJKLMNOPQRSTUVWXYZ <br />
+				01234567890123456789012345
+			</kbd>
+			<br />
+			<br />
+			<!-- 定义计算机代码样本 -->
+			<samp>
+				我为定义计算机代码样本的HTML <br />
+				for(int i=0; i<100; ++i) { <br />
+					cout<< i << endl; <br />
+				} <br />
+				cout<< endl;
+			</samp>
+			<br />
+			<br />
+			<!-- 定义打字机代码 -->
+			<tt>
+				我为定义打字机代码的HTML
+			</tt>
+			<br />
+			<br />
+			
+			<!-- 定义变量 -->
+			<var>
+				我为定义变量的HTML <br />
+				int nVar = 0;
+			</var>
+			<br />
+			<br />
+			
+			<!-- 定义预格式文本 -->
+			<pre>
+				我为定义预格式文本的HTML <br />
+				for(int i=0; i<100; ++i) {
+					cout<< i << endl;
+				}
+				cout<< endl;
+			</pre>
+			<br />
+			<br />
+			
+			<!-- 引用、引用和术语定义 -->
+			<h2>我为使用"引用、引用和术语定义"标签的二级标题HTML</h2>
+			我为定义缩写的HTML <br />
+			<text> <!-- 定义缩写-->
+				The <abbr title="People's Republic of China">PRC</abbr> was founded in 1949.
+			</text> <br />
+			<a name="P1"></a>
+			<br />我为定义首字母缩写的HTML <br />
+			<text> <!-- 定义首字母缩写 -->
+				万维网简写是：<acronym title="World Wide Web">WWW</acronym>
+			</text> <br />
+			
+			<br />我为定义地址的HTML <br />
+			<text> <!-- 定义地址 -->
+				<address>Written by <a href="mailto:webmaster@example.com">Donald Duck</a>.<br> 
+					Visit us at:<br>
+					Example.com<br>
+					Box 564, Disneyland<br>
+					USA
+				</address>
+			</text> <br />
+			
+			<br />我为定义文字方向的HTML<br />
+			<text>
+				“清晨我上马”倒着念是
+				<bdo dir='rtl'>“清晨我上马”</bdo>
+			</text> <br />
+			
+			<br />我为定义长（区块）引用的HTML<br />
+			<text>
+				<blockquote>
+				锄禾日当午，<br/>
+				汗滴禾下土。<br/>
+				谁知盘中餐, <br/>
+				粒粒皆辛苦。<br/>
+				</blockquote>
+			</text> <br />
+			
+			<br />我为定义短的引用语的HTML<br />
+			<text>
+				妈妈在小明上学离开家时说：<q>记得放学早点回家</q>
+			</text> <br />
+			
+			<br />我为定义引用、引证的HTML<br />
+			<text>小朋友需要读的书【
+				<cite>弟子规、千字文、百家姓</cite>】
+			</text> <br />
+			
+			<br />我为定义项目和缩写的定义HTML<br />
+			<text>
+				The <dfn title="World Health Organization">WHO</dfn> was founded in 1948.<br />
+				<dfn><abbr title="World Health Organization">WHO</abbr></dfn>成立于1948年。<br />
+				<dfn>WHO</dfn>(World Health Organization)成立于1948年。<br />
+			</text> <br />
+		</p1>		
+		<hr />
+		
+		<p2>
+			我是为测试CSS设置了p2段落样式的HTML <br /> <br />
+			
+			<a href="https://www.baidu.com" style="text-decoration:none">
+				我是一个没有下划线的链接到百度官网的超链接
+			</a> <br /> <br />
+			
+			<h3>我是调用外部CSS样式表进行格式化的HTML</h3>
+			
+			<!-- 使用图片作为链接 -->
+			<text>我为定义了图片链接的HTML</text> <br />
+			<a href="https://linux.org" target='_blank' name='linux官网'>
+				<img border="0" src="Penguins.jpg" />
+			</a> <br />
+			
+			<!-- 发送邮件链接 -->
+			<a href="mailto:support@microsoft.com?cc=A@microsoft.com&bcc=B@microsoft.com&subject=Hello%20everyone&body=You%20are%20invited%20to%20a%20meeting.">
+				联系微软技术支持
+			</a>
+			<br />
+		</p2>
+		
+		<br /> <br />
+		<!-- 回到顶部 -->
+		<a href="#top">返回顶部</a>
+		<br />
+		<br />
+		<!-- 返回段落2 -->
+		<a href="#P1">返回段落2</a>
+	</body>
+</html>
